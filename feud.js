@@ -14,7 +14,7 @@ function play_sound_wav(sound) {
 var app = {
   version: 1,
   currentQ: 0,
-  jsonFile:"FF3.json",
+  jsonFile:"ff3.json",
   board: $("<div class='gameBoard'>"+
 
              "<!--- Scores --->"+
@@ -35,10 +35,10 @@ var app = {
 
              "<!--- Buttons --->"+
              "<div class='btnHolder'>"+
-               "<div id='awardTeam1' data-team='1' class='button'>Équipe 1 gagne</div>"+
+               "<div id='awardTeam1' data-team='1' class='button'>Ã‰quipe 1 gagne</div>"+
                "<div id='newQuestion' class='button'>Question</div>"+
                "<div id='Wrong' class='button'>Faux</div>"+
-               "<div id='awardTeam2' data-team='2'class='button'>Équipe 2 gagne</div>"+
+               "<div id='awardTeam2' data-team='2'class='button'>Ã‰quipe 2 gagne</div>"+
              "</div>"+
 
            "</div><div id='audiodummy'></div>"),
